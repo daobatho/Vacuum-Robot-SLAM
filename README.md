@@ -8,3 +8,7 @@ Autonomous vacuum robot using ROS2 and slam_toolbox with rotating TF-Luna LiDAR 
 bash
 sudo apt install ros-humble-ros-base
 ```
+- cài SLAM
+```
+sudo apt install ros-humble-slam-toolbox
+```
