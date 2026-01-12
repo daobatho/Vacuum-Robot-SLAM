@@ -1,0 +1,14 @@
+amcl:
+  ros__parameters:
+    use_sim_time: false
+    min_particles: 500
+    max_particles: 2000
+    kld_err: 0.05
+    update_min_d: 0.2
+    update_min_a: 0.2
+    resample_interval: 1
+    transform_tolerance: 1.0
+    scan_topic: scan
+    odom_frame_id: odom
+    base_frame_id: base_link
+    global_frame_id: map
